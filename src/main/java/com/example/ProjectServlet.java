@@ -13,11 +13,11 @@ public class ProjectServlet extends HttpServlet {
 
         public void init(ServletConfig config) throws ServletException {
             super.init(config);
-            System.out.println("From projectServlet init method");
+            System.out.println("From ProjectServlet init method");
         }
 
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-            resp.getWriter().println("this is project servlet");
+            resp.getWriter().println("This is Project Servlet");
         }
 }

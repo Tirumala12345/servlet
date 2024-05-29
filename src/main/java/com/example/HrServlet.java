@@ -12,11 +12,11 @@ import java.io.IOException;
 public class HrServlet extends HttpServlet {
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
-        System.out.println("From hrServlet init method");
+        System.out.println("From HrServlet init method");
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("this is hr servlet");
+        resp.getWriter().println("This is Hr servlet");
     }
 }

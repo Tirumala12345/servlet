@@ -12,12 +12,12 @@ import java.io.IOException;
 public class FrontServlet extends HttpServlet {
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
-        System.out.println("From frontServlet init method");
+        System.out.println("From FrontServlet init method");
     }
 
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("this is front servlet");
+        resp.getWriter().println("This is Front servlet");
     }
 }
